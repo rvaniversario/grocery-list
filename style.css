@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: hsl(0, 0%, 94%);
+}
+h1 {
+  color: hsl(0, 0%, 20%);
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+}
+
+.container {
+  background: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 10rem auto 0;
+  padding: 2rem 1rem;
+}
+@media (max-width: 532px) {
+  .container {
+    margin: 10rem 1rem 0;
+  }
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.5rem;
+  margin: 1rem 0;
+}
+.alert-success {
+  background: hsl(120, 100%, 90%);
+  color: hsl(120, 100%, 25%);
+}
+.alert-danger {
+  color: hsl(0, 100%, 50%);
+  background: hsl(0, 100%, 90%);
+}
+.grocery {
+  display: flex;
+}
+.form-control {
+  width: 100%;
+  margin-right: 0.25rem;
+}
+.input {
+  background: hsl(0, 0%, 94%);
+  border-radius: 0.25rem;
+  border-color: transparent;
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+.submit-btn {
+  background: hsl(0, 0%, 38%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 0.25rem;
+  border-color: transparent;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+}
+.grocery-container {
+  text-align: center;
+  margin-top: 2rem;
+  visibility: hidden;
+}
+.show-container {
+  visibility: visible;
+}
+.grocery-item {
+  background: hsl(0, 0%, 94%);
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+.edit-btn {
+  font-size: 1.2rem;
+  background: hsl(240, 100%, 50%);
+  border-color: transparent;
+  color: white;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+.delete-btn {
+  font-size: 1.2rem;
+  background: hsl(0, 100%, 50%);
+  border-color: transparent;
+  color: hsl(0, 0%, 100%);
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+.clear-btn {
+  text-transform: capitalize;
+  background: hsl(0, 0%, 38%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 0.25rem;
+  border-color: transparent;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+}
